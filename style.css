@@ -83,7 +83,7 @@ a {
     display: inline-block;
 }
 
-/* Ancho limitado para que los párrafos largos no se estiren de borde a borde */
+
 #story, #menu, #contact {
     padding: 80px 0;
     text-align: center;
