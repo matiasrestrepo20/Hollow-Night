@@ -131,3 +131,11 @@ a {
 .btn:hover {
     background-color: #4fa8ad;
 }
+
+.site-footer {
+    background-color: #0c0c10;
+    color: #e8e6df;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
