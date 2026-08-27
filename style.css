@@ -119,3 +119,15 @@ h2 {
     margin-bottom: 0.5rem;
 }
 
+/* Transición suave para que el cambio de color en hover no sea brusco */
+a {
+    transition: color 0.4s ease;
+}
+
+.main-nav a:hover {
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #4fa8ad;
+}
