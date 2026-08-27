@@ -55,7 +55,7 @@ a {
 }
 #hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://picsum.photos/seed/hallownest/1600/900');
+    url('img/fondo de pagina.png');
     background-size: cover;
     background-position: center;
     color: #ffffff;
