@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +12,7 @@ body {
     background-color: #101014;
 }
 
+/* fuente distinta para titulos y logo */
 h1, h2, h3, .logo {
     font-family: 'Cinzel', serif;
     font-weight: 700;
@@ -21,7 +21,7 @@ h1, h2, h3, .logo {
 
 a {
     text-decoration: none;
-    color: #6bcacf;
+    color: #6bcacf; 
 }
 
 .site-header {
@@ -30,6 +30,7 @@ a {
     border-bottom: 1px solid #6bcacf;
 }
 
+/*para separar el logo del menu de navegacion */
 .site-header .container {
     display: flex;
     flex-direction: row;
@@ -42,7 +43,7 @@ a {
 }
 
 .main-nav ul {
-    display: flex;
+    display: flex; /* pone los links en fila en vez de en lista */
     list-style: none;
 }
 
@@ -53,6 +54,8 @@ a {
 .main-nav a {
     font-weight: bold;
 }
+
+/* seccion hero con imagen de fondo y filtro oscuro para que se lea el texto */
 #hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('img/fondo de pagina.png');
@@ -80,16 +83,16 @@ a {
     padding: 15px 30px;
     border-radius: 5px;
     font-weight: 700;
-    display: inline-block;
+    display: inline-block; /* para que el link se comporte como boton */
 }
 
-
+/* espaciado y centrado igual para las 3 secciones de contenido */
 #story, #menu, #contact {
     padding: 80px 0;
     text-align: center;
 }
 #menu {
-    background-color: #1a1a20;
+    background-color: #1a1a20; /* un poco mas claro que el fondo, diferencia la seccion */
 }
 
 h2 {
@@ -98,6 +101,7 @@ h2 {
 }
 
 /* --- MENÚ --- */
+/* grid de 3 columnas iguales para las zonas del reino */
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -109,7 +113,7 @@ h2 {
 .menu-item img {
     width: 100%;
     height: 250px;
-    object-fit: cover;
+    object-fit: cover; /* evita que la imagen se deforme */
     border-radius: 5px;
     margin-bottom: 1rem;
 }
